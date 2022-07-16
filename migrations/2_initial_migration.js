@@ -1,5 +1,5 @@
-var Election = artifacts.require("./Election.sol");
+var Gpssensor = artifacts.require("./Gpssensor.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Election);
+  deployer.deploy(Gpssensor);
 };
