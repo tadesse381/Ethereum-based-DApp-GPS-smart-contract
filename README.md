@@ -7,8 +7,7 @@ In this project, an Ethereum based dApp is developed  that has both the smart co
 
 ## Architecture
 The below figure shows the basic architecture of the Refund by Location Smart Contract.
-
-![Refund by Location Smart Contract](contracts/Architecture.jpg)
+![Speech-to-text data collection](contracts/Architecture.jpg)
 
 ## Dependencies
 Install these prerequisites:
