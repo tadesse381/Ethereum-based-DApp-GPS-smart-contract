@@ -1,14 +1,6 @@
 <h1 align="center">Ethereum-based-DApp-GPS-smart-contract</h1>
 </br>
 
-**Table of content**
-
-- [Introduction](#Introduction)
-- [Architecture](#Architecture)
-- [Dependencies](#Dependencies)
-- [Installation](#Installation)
-
-
 ## Introduction
 The refund by location smart contract is aimed to be used when one party, for example an employer, agrees to pay another party, for example an employee, for being present in a certain geographic area for a certain duration. The employee’s phone sends its GPS location to a smart contract at a certain interval. Based on the pre-agreed contract codified in an Ethereum smart contract, a cryptocurrency payment is executed when all the agreed conditions are met.  If, at any point, the GPS sensor indicates that an employee is outside the range of the agreed GPS area, the contract state will be updated to indicate that it is out of compliance.  
 In this project, an Ethereum based dApp is developed  that has both the smart contract tested and deployed in a testnet and a front end that will allow monitoring of the status.
@@ -24,10 +16,33 @@ Install these prerequisites:
 - Ganache: http://truffleframework.com/ganache/
 - Metamask: https://metamask.io/
 
-## Installation
-```
-git clone https://github.com/STT-Data-Engineering/Speech_to_text
-```
 
+## Step 1. Clone the project
+`git clone https://github.com/dappuniversity/election`
+
+## Step 2. Install dependencies
+```
+$ cd election
+$ npm install
+```
+## Step 3. Start Ganache
+Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
+
+
+## Step 4. Compile & Deploy Election Smart Contract
+`$ truffle migrate --reset`
+You must migrate the election smart contract each time your restart ganache.
+
+## Step 5. Configure Metamask
+See free video tutorial for full explanation of these steps:
+- Unlock Metamask
+- Connect metamask to your local Etherum blockchain provided by Ganache.
+- Import an account provided by ganache.
+
+## Step 6. Run the Front End Application
+`$ npm run dev`
+Visit this URL in your browser: http://localhost:3000
+
+If you get stuck, please reference the free video tutorial.
 ## Contributors
 * [Tadesse Kebede](https://github.com/tadesse381)
