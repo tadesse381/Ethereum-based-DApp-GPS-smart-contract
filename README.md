@@ -1,46 +1,49 @@
 # Ethereum-based-DApp-GPS-smart-contract
-Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
+<h1 align="center">Speech-to-Text Data Collection</h1>
+<div>
+<a href="https://github.com/STT-Data-Engineering/Speech_to_text"><img src="https://img.shields.io/github/forks/STT-Data-Engineering/Speech_to_text" alt="Forks Badge"/></a>
+<a "https://github.com/STT-Data-Engineering/Speech_to_text/pulls"><img src="https://img.shields.io/github/issues-pr/STT-Data-Engineering/Speech_to_text" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/STT-Data-Engineering/Speech_to_text/issues"><img src="https://img.shields.io/github/issues/STT-Data-Engineering/Speech_to_text" alt="Issues Badge"/></a>
+<a href="https://github.com/STT-Data-Engineering/Speech_to_text/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/STT-Data-Engineering/Speech_to_text?color=2b9348"></a>
+<a href="https://github.com/STT-Data-Engineering/Speech_to_text/blob/main/LICENSE"><img src="https://img.shields.io/github/license/STT-Data-Engineering/Speech_to_text?color=2b9348" alt="License Badge"/></a>
+</div>
+</br>
 
-Full Free Video Tutorial:**
-https://youtu.be/3681ZYbDSSk
+**Table of content**
 
-## 2019 Updated Code
-https://github.com/dappuniversity/election/tree/2019_update
-
-Follow the steps below to download, install, and run this project.
-
-## Dependencies
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
-- NPM: https://nodejs.org
-- Truffle: https://github.com/trufflesuite/truffle
-- Ganache: http://truffleframework.com/ganache/
-- Metamask: https://metamask.io/
+- [Introduction](#Introduction)
+- [Pipeline](#Pipeline)
+- [Architecture](#Architecture)
+- [Project  Structure](#ProjectStructure)
+- [Installation](#Installation)
 
 
-## Step 1. Clone the project
-`git clone https://github.com/dappuniversity/election`
+## Introduction
+The purpose of this project is to build a data engineering pipeline that allows recording millions of Amharic and Swahili speakers reading digital texts in-app and web platforms. For this project, the Amharic news text classification dataset with baseline performance dataset is used. 
+The aim of this project is to produce a tool that can be deployed to process posting and receiving text and audio files from and into a data lake, apply transformation in a distributed manner, and load it into a warehouse in a suitable format to train a speech-to-text model. 
 
-## Step 2. Install dependencies
+## Pipeline
+This is our pipeline of this project that will be used to record millions of Amharic and Swahili speakers reading digital texts in-app and web platforms.  
+![Speech-to-text data collection](data/end-to-end-details-design.jpg)
+
+## Project Structure
+There are several files in the repository, including Python scripts, Jupyter notebooks,  and text files. 
+
+## Installation
 ```
-$ cd election
-$ npm install
+git clone https://github.com/STT-Data-Engineering/Speech_to_text
 ```
-## Step 3. Start Ganache
-Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
 
+## Contributors
+* [Selam Ayehubirhan](https://github.com/sel6) 
+* [Henok Tilaye](https://github.com/Hen0k)
+* [Biruk Getaneh](https://github.com/bkget)
+* [Kevin Shyaka](https://github.com/skevin-dev)
+* [Tadesse Kebede](https://github.com/tadesse381)
+* [Diye Mark](https://github.com/Danu-B)
+* [Danayt Bulom](https://github.com/DiyeMark)
+<!-- Copy-paste in your Readme.md file -->
+![contributors list](https://contrib.rocks/image?repo=STT-Data-Engineering/Speech_to_text)
 
-## Step 4. Compile & Deploy Election Smart Contract
-`$ truffle migrate --reset`
-You must migrate the election smart contract each time your restart ganache.
-
-## Step 5. Configure Metamask
-See free video tutorial for full explanation of these steps:
-- Unlock Metamask
-- Connect metamask to your local Etherum blockchain provided by Ganache.
-- Import an account provided by ganache.
-
-## Step 6. Run the Front End Application
-`$ npm run dev`
-Visit this URL in your browser: http://localhost:3000
-
-If you get stuck, please reference the free video tutorial.
+Made with [contrib.rocks](https://contrib.rocks)
+ 
