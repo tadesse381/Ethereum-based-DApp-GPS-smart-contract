@@ -16,7 +16,7 @@ Install these prerequisites:
 - Ganache: http://truffleframework.com/ganache/
 - Metamask: https://metamask.io/
 
-
+# Installation Steps
 ## Step 1. Clone the project
 `git clone https://github.com/tadesse381/Ethereum-based-DApp-GPS-smart-contract`
 
