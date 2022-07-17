@@ -4,7 +4,6 @@
 **Table of content**
 
 - [Introduction](#Introduction)
-- [Pipeline](#Architecture)
 - [Architecture](#Architecture)
 - [Project  Structure](#ProjectStructure)
 - [Installation](#Installation)
