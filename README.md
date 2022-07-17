@@ -5,7 +5,7 @@
 
 - [Introduction](#Introduction)
 - [Architecture](#Architecture)
-- [Project  Structure](#ProjectStructure)
+- [Project  Structure](#Dependencies)
 - [Installation](#Installation)
 
 
@@ -17,8 +17,12 @@ In this project, an Ethereum based dApp is developed  that has both the smart co
 The below figure shows the basic architecture of the Refund by Location Smart Contract.
 ![Speech-to-text data collection](data/end-to-end-details-design.jpg)
 
-## Project Structure
-There are several files in the repository, including Python scripts, Jupyter notebooks,  and text files. 
+## Dependencies
+Install these prerequisites:
+- NPM: https://nodejs.org
+- Truffle: https://github.com/trufflesuite/truffle
+- Ganache: http://truffleframework.com/ganache/
+- Metamask: https://metamask.io/
 
 ## Installation
 ```
