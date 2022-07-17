@@ -5,7 +5,7 @@
 
 - [Introduction](#Introduction)
 - [Architecture](#Architecture)
-- [Project  Structure](#Dependencies)
+- [Dependencies](#Dependencies)
 - [Installation](#Installation)
 
 
